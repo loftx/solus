@@ -1,0 +1,24 @@
+{
+  "name": "@loftx/solus",
+  "version": "1.0.0",
+  "description": "Unofficial wrapper to integrate with Solus Library App https://wp.sol.us",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "Solus",
+    "Library"
+  ],
+  "author": "Tom Lofts",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "jest-cli": "^28.1.3",
+    "uuid": "^8.3.2"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
